@@ -1,0 +1,90 @@
+[2025-03-06 21:00:05] Test file accessed
+[2025-03-06 21:00:05] Session data: Array
+(
+    [guest_preferences] => Array
+        (
+            [ignored_posts] => Array
+                (
+                    [0] => 22
+                    [1] => 23
+                )
+
+        )
+
+)
+
+[2025-03-06 21:03:32] Test file accessed
+[2025-03-06 21:03:32] Session data: Array
+(
+    [guest_preferences] => Array
+        (
+            [ignored_posts] => Array
+                (
+                    [0] => 22
+                    [1] => 23
+                )
+
+        )
+
+)
+
+[2025-03-06 21:03:36] Test file accessed
+[2025-03-06 21:03:36] Session data: Array
+(
+    [guest_preferences] => Array
+        (
+            [ignored_posts] => Array
+                (
+                    [0] => 22
+                    [1] => 23
+                )
+
+        )
+
+)
+
+[2025-03-06 21:03:37] Test file accessed
+[2025-03-06 21:03:37] Session data: Array
+(
+    [guest_preferences] => Array
+        (
+            [ignored_posts] => Array
+                (
+                    [0] => 22
+                    [1] => 23
+                )
+
+        )
+
+)
+
+[2025-03-06 21:03:37] Test file accessed
+[2025-03-06 21:03:37] Session data: Array
+(
+    [guest_preferences] => Array
+        (
+            [ignored_posts] => Array
+                (
+                    [0] => 22
+                    [1] => 23
+                )
+
+        )
+
+)
+
+[2025-03-06 21:03:37] Test file accessed
+[2025-03-06 21:03:37] Session data: Array
+(
+    [guest_preferences] => Array
+        (
+            [ignored_posts] => Array
+                (
+                    [0] => 22
+                    [1] => 23
+                )
+
+        )
+
+)
+

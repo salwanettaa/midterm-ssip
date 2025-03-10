@@ -1,0 +1,124 @@
+/* assets/css/style.css */
+/* Custom styling for the social media site */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
+
+.post-card {
+    transition: all 0.2s ease;
+}
+
+.post-card:hover {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.comment-section {
+    border-top: 1px solid #dee2e6;
+    padding-top: 15px;
+}
+
+.comment {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.comment:hover {
+    background-color: rgba(0,0,0,0.03);
+}
+
+.stat-box {
+    transition: all 0.2s ease;
+}
+
+.stat-box:hover {
+    background-color: rgba(0,0,0,0.03);
+    transform: translateY(-2px);
+}
+
+/* Dark mode adjustments */
+[data-bs-theme="dark"] .card {
+    background-color: #2b3035;
+    border-color: #373b3e;
+}
+
+[data-bs-theme="dark"] .comment:hover {
+    background-color: rgba(255,255,255,0.05);
+}
+
+[data-bs-theme="dark"] .stat-box:hover {
+    background-color: rgba(255,255,255,0.05);
+}
+
+/* Dark mode adjustments */
+[data-bs-theme="dark"] {
+    --bs-body-bg: #212529;
+    --bs-body-color: #f8f9fa;
+}
+
+[data-bs-theme="dark"] .navbar-dark {
+    background-color: #343a40 !important;
+}
+
+[data-bs-theme="dark"] .card {
+    background-color: #2b3035;
+    border-color: #373b3e;
+}
+
+[data-bs-theme="dark"] .list-group-item {
+    background-color: #2b3035;
+    border-color: #373b3e;
+    color: #f8f9fa;
+}
+
+[data-bs-theme="dark"] .btn-outline-primary {
+    background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+[data-bs-theme="dark"] .btn-outline-primary:hover {
+  background-color: #ff5252;
+  border-color: #ff5252;
+  box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+}
+
+[data-bs-theme="dark"] .form-control,
+[data-bs-theme="dark"] .form-select {
+  border-radius: 8px;
+  border: 1px solid #e0e0e0;
+  padding: 0.75rem;
+}
+
+[data-bs-theme="dark"] .form-control:focus,
+[data-bs-theme="dark"] .form-select:focus {
+  box-shadow: 0 0 0 3px rgba(var(--bs-primary-rgb), 0.25);
+  border-color: var(--bs-primary);
+}
+
+[data-bs-theme="dark"] .dropdown-menu {
+    background-color: #343a40;
+    border-color: #495057;
+}
+
+[data-bs-theme="dark"] .dropdown-item {
+    color: #f8f9fa;
+}
+
+[data-bs-theme="dark"] .dropdown-item:hover,
+[data-bs-theme="dark"] .dropdown-item:focus {
+    background-color: #495057;
+    color: #f8f9fa;
+}
+
+.like-btn.processing {
+    opacity: 0.7;
+    cursor: wait;
+}
+
